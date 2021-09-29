@@ -1,12 +1,11 @@
 output = []
-x = 0
-while x != 1:
-    if x % 2 == 0:
-        x = x/2
-        output.append(x)
+while n != 1:
+    if n % 2 == 0:
+        n = n/2
+        output.append(n)
     else:
-        x = (x*3)+1
-        output.append(x)
+        n = (n*3)+1
+        output.append(n)
 
 print(output)
 
