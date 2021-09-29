@@ -1,13 +1,14 @@
 def main():
     n = int(input())
-    output = [n]
+    list = [n]
     while n != 1:
         if n % 2 == 0:
-            n = n/2
-            output.append(n)
+            n = int(n/2)
+            list.append(n)
         else:
-            n = (n*3)+1
-            output.append(n)
-    print(output)
+            n = int((n*3)+1)
+            list.append(n)
+    for lista in list:
+        print(lista, end=" ")
 if __name__ == "__main__":
     main()
