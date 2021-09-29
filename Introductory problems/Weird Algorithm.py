@@ -8,7 +8,5 @@ def weirdalgorithm(x:int) -> int:
             x = (x*3)+1
             output.append(x)
 
-    return output
-
-
+    print(output)
 
