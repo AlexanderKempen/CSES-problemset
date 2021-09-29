@@ -1,1 +1,2 @@
-Weird algos
+input = 6
+print(input)
