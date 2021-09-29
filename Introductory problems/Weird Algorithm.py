@@ -4,8 +4,10 @@ def weirdalgorithm(x:int) -> int:
     else:
         if x % 2 == 0:
             x = x/2
+            print(x)
             weirdalgorithm(x)
 
         else:
             x = (x*3)+1
+            print(x)
             weirdalgorithm(x)
