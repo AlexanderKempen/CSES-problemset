@@ -1,4 +1,5 @@
-def main(n:int):
+def main():
+    n = int(input())
     output = []
     while n != 1:
         if n % 2 == 0:
@@ -8,3 +9,5 @@ def main(n:int):
             n = (n*3)+1
             output.append(n)
     print(output)
+if __name__ == "__main__":
+    main()
